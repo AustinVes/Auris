@@ -45,7 +45,7 @@ const uint16_t analog_pin = PC0;
 
 // precomputed constants for the lowest frequencies Timer/Counter1 can yield with each prescaler tap
 // calculated based on 16 MHz system clock using min_freq = ((2^-timer_bitlength)*sys_freq)/prescaler
-const uint16_t t1_prescaler_taps[]       = {1,   8,  64, 256, 1024};
+const uint16_t t1_prescaler_taps[]      = {1,   8,  64, 256, 1024};
 const uint16_t t1_min_prescaler_freqs[] = {245, 31, 4,  1,   1};
 uint8_t t1_prescaler_tap_index; // <- for storing which tap from the list was chosen
 uint16_t t1_prescaler_val; // <- for storing the actual prescaler value that was chosen
