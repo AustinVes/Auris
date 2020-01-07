@@ -72,13 +72,6 @@ void setup() {
   // calculate value to be stored in OCR1A based on Timer/Counter1 prescaler value
   t1_compare_val = 16000000/(t1_prescaler_val * sample_rate);
 
-  for (int i=0; i<10; ++i) {
-    digitalWrite(10, LOW);
-    delay(50);
-    digitalWrite(10, HIGH);
-    delay(50);
-  }
-
   // pause Timer/Counter1 by clearing Clock Select bits
   TCCR1B &= ~(B111);
 
