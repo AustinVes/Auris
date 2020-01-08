@@ -56,7 +56,7 @@ const double gtzl_coeff = 2 * gtzl_cosine;
 
 // variables to store per-sample processing results
 volatile double Q0, Q1, Q2;
-volatile uint16_t num_adc_conversions;
+volatile uint32_t num_adc_conversions;
 
 // variable to store measured magnitude (squared) of target frequency
 double gtzl_magnitude;
