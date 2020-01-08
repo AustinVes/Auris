@@ -1,0 +1,56 @@
+Downstairs Smoke Alarm
+ - Frequencies:    3348 Hz ( -8.20 dB)
+                   6697 Hz (-57.18 dB)
+                  10045 Hz (-54.94 dB)
+                  13393 Hz (-74.67 dB)
+                  16742 Hz (-65.15 dB)
+ - Timing: ON  for  0.459s
+           OFF for  0.493s
+           Period = 0.952s
+           Repeats:     3x
+           Length = 2.856s
+
+Carbon Monoxide Alarm
+ - Frequencies:    3459 Hz (-11.93 dB)
+                   5187 Hz (-59.77 dB)
+                   6918 Hz (-55.44 dB)
+                   8641 Hz (-73.58 dB)
+                  10372 Hz (-63.54 dB)
+                  12105 Hz (-63.02 dB)
+                  13832 Hz (-65.16 dB)
+                  15559 Hz (-78.69 dB)
+                  17293 Hz (-82.95 dB)
+ - Timing: ON  for  0.100s
+           OFF for  0.100s
+           Period = 0.200s
+           Repeats:     4x
+           Length = 0.800s
+
+Explosive Gas Alarm
+ - Frequencies:    3457 Hz ( -8.94 dB)
+                   5187 Hz (-56.69 dB)
+                   6915 Hz (-48.64 dB)
+                   8640 Hz (-85.83 dB)
+                  10373 Hz (-50.03 dB)
+                  12102 Hz (-59.99 dB)
+                  13831 Hz (-56.69 dB)
+                  15560 Hz (-83.37 dB)
+                  17288 Hz (-65.80 db)
+ - Timing: ON  for  1.626s
+           OFF for     N/A
+           Period = 1.626s
+           Repeats:     1x
+           Length = 1.626s
+
+Upstairs Smoke Alarm
+ - Frequencies:    3018 Hz (-10.87 dB)
+                   6036 Hz (-41.29 dB)
+                   9055 Hz (-35.88 dB)
+                  12073 Hz (-33.53 dB)
+                  15091 Hz (-45.34 dB)
+                  18110 Hz (-50.72 dB)
+ - Timing: ON  for  0.497s
+           OFF for  0.499s
+           Period = 0.996s
+           Repeats:     3x
+           Length = 2.998s
