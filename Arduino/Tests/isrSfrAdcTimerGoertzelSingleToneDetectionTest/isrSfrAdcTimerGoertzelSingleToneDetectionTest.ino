@@ -45,11 +45,11 @@ const uint16_t audio_pin = PC0;
 // set parameters for Goertzel algorithm
 const uint16_t target_freq = 400; // Hz
 const uint16_t sample_rate = 1200; // Hz
-const uint16_t block_size = 120; // <-- bin width = 10Hz, sample time = 0.1s
-//const uint16_t block_size = 300; // <-- bin width = 4Hz, sample time = 0.25s
+//const uint16_t block_size = 120; // <-- bin width = 10Hz, sample time = 0.1s
+const uint16_t block_size = 300; // <-- bin width = 4Hz, sample time = 0.25s // OOPS THIS IS centered at 180 HZ
 
 // calculate precomputed constants from parameters
-const int16_t gtzl_k = (int16_t) 0.5 + (block_size * target_freq / sample_rate);
+const int16_t gtzl_k = 0.5 + ((int32_t)block_size * target_freq / sample_rate);
 const double gtzl_w = (TWO_PI / block_size) * gtzl_k;
 const double gtzl_cosine = cos(gtzl_w);
 const double gtzl_coeff = 2 * gtzl_cosine;
